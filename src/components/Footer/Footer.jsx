@@ -25,7 +25,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about" className="hover:underline">
+                            <Link to="/about-us" className="hover:underline">
                                 About
                             </Link>
                         </li>
@@ -36,7 +36,7 @@ function Footer() {
                     <ul className="text-gray-500 font-medium">
                         <li className="mb-4">
                             <a
-                                href="https://github.com/hiteshchoudhary"
+                                href="https://github.com/Kuldeep-Bacancy"
                                 className="hover:underline"
                                 target="_blank"
                                 rel="noreferrer"
@@ -72,8 +72,8 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center">
                 © 2023
-                <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                    hiteshchoudhary
+                <a href="https://github.com/Kuldeep-Bacancy" className="hover:underline">
+                    Kuldeep Chotaliya
                 </a>
                 . All Rights Reserved.
             </span>

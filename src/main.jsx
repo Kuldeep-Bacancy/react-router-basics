@@ -7,6 +7,7 @@ import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact'
 import User from './components/User/User'
+import Error from './components/Error/Error'
 
 
 // const router = createBrowserRouter([
@@ -32,7 +33,7 @@ import User from './components/User/User'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />} >
+    <Route path='/' element={<Layout />}  errorElement={<Error />}>
       <Route path="" element={<Home />} />
       <Route path="about-us" element={<About />} />
       <Route path="contact-us" element={<Contact />} />
